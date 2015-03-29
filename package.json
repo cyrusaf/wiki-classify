@@ -1,0 +1,17 @@
+{
+  "name": "wiki_classify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bayes": "0.0.4",
+    "cheerio": "^0.19.0",
+    "request": "^2.54.0",
+    "sync-request": "^2.0.1"
+  }
+}
