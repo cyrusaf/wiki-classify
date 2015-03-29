@@ -32,13 +32,6 @@ for (var category of training_data) {
 		process.stdout.write(counter.toString() + " ");
 		classifier.learn($("#mw-content-text").text(), category.name);
 		counter++;
-
-		if (counter > 1000) {
-				break;
-		}
-	}
-	if (counter > 1000) {
-			break;
 	}
 }
 
